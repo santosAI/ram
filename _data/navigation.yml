@@ -13,7 +13,7 @@ main:
     url: /initiatives/    
     
   - title: "Honors & Awards"
-    url: /pages/portfolio.html
+    url: /_pages/portfolio.html
         
   - title: "Blog Posts"
     url: /year-archive/
