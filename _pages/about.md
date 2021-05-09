@@ -9,7 +9,7 @@ redirect_from:
 ---
 <html>
 <body>
-
+<div style="text-align: justify;  text-justify: inter-word;">
 <p>
 I’m a Software Engineer at Applied Materials, working on developing web applications for Integrated Operation Management System.
 </p>
@@ -22,6 +22,8 @@ Previously, I did my Bachelors in Computer Science and Engineering from JSS Scie
 <p>
 I am excited about research problems involving the design of efficient architectures for solving various Computer Vision problems such as detection/segmentation/classification. I am also interested in changing clinical practice using CV and NLP algorithms.
 </p>
+</div>
+
 
 
 </body>
