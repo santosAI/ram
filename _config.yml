@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Santos's Webpage"
+title                    : "Santosh's Webpage"
 title_separator          : "-"
 name                     : &name 
 description              : &description "personal description"
@@ -84,10 +84,10 @@ author:
   avatar           : "jprofile.png"
   bio              : "Software Engineer"
   location         : "Bangalore, India"
-  employer         :
+  employer         : "Applied Materials"
   pubmed           : 
   googlescholar    :
-  email            :
+  email            : "santo.shet@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
