@@ -1,0 +1,48 @@
+---
+layout: archive
+permalink: /awards/
+author_profile: true
+---
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    if (document.getElementsByClassName("auto")) {
+  var autos = document.getElementsByClassName("auto");
+  for (var i=0; i<autos.length; i++) {
+    autos[i].addEventListener("mouseover", autoOver);
+    autos[i].addEventListener("mouseout", autoOut);
+  }
+}
+
+function autoOver() {
+  this.style.height = this.scrollHeight + "px";
+}
+
+function autoOut() {
+  this.style.height = "20px";
+}
+</script>
+<style>
+    .auto {
+  display: block;
+  margin: 20px;
+  width: 400px;
+  height: 20px;
+  overflow: hidden;
+  transition: all .5s ease;
+}
+</style>
+<br>
+
+<div class="container-fluid">
+    <div class="auto">
+        <div class="col-8"><strong>xyz award</strong> </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+    </div>
+    
+   
+</div>

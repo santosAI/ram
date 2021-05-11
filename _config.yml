@@ -184,9 +184,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  awards:
     output: true
-    permalink: /:collection/:path/
+    permalink: /awards/:path/
   talks:
     output: true
     permalink: /:collection/:path/
