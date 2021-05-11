@@ -175,6 +175,9 @@ kramdown:
 
 # Collections
 collections:
+  experience:
+    output: true
+    permalink: /:experience/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
