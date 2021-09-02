@@ -8,14 +8,41 @@ author_profile: true
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<style>
+  .vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+  }
 
+  .vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: none;
+  }
+
+  .modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    max-width: inherit;
+    /* For Bootstrap 4 - to avoid the modal window stretching 
+full width */
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+  }
+</style>
 <section id="contact" class="contact">
   <div class="container" style="margin-top: 4px;" data-aos="fade-up">
     <div class="border border-secondary" style="border-radius: 3px;">
       <div class="row" style="padding: 2px;">
         <div class="col-2">
-          <img class="img-fluid" src="../images/amat2.png" >
+          <img class="img-fluid" src="../images/amat2.png">
         </div>
         <div class="col-8" style="padding: 8px;">
           <div style="font-size: 18px;">
@@ -25,7 +52,7 @@ author_profile: true
           <div style="font-size: small;">
             .NET Developer working on end to end applications and managing project release.
             Tech stack: .NET, C#, JS, React, MSSQL, TFS, Jira.
-  
+
             Project Assignment as part of initial training:
             Developed Fascio - Help Bot using Azure Cognetive Services. Optimized user-query for incident creation using
             NLP algorithms.
@@ -36,13 +63,13 @@ author_profile: true
         </div>
       </div>
     </div>
-  </div> 
+  </div>
 
   <div class="container" style="margin-top: 2px;" data-aos="fade-up">
     <div class="border border-secondary" style="border-radius: 3px;">
       <div class="row" style="padding: 2px;">
         <div class="col-2">
-          <img class="img-fluid" src="../images/iisc.jpg" style="margin-top: 23px;" >
+          <img class="img-fluid" src="../images/iisc.jpg" style="margin-top: 23px;">
         </div>
         <div class="col-8" style="padding: 8px;">
           <div style="font-size: 18px;">
@@ -51,11 +78,13 @@ author_profile: true
           <div><span style="font-size: small;">Research Intern</span></div>
           <div style="font-size: small;">
             <ul>
-              <li>Worked on COVID-19 Detection as a service to doctors and radiologists in collaboration with <a target="_blank"  href="https://www.niramai.com/">Niramai Health Analytics</a>, and other 250 doctors(&radiologists) across Karnataka State</li>
+              <li>Worked on COVID-19 Detection as a service to doctors and radiologists in collaboration with <a
+                  target="_blank" href="https://www.niramai.com/">Niramai Health Analytics</a>, and other 250
+                doctors(&radiologists) across Karnataka State</li>
               <li>Optimed model with co-learning and multipe datasets</li>
               <li>Studied various lung diseases, symptons and xray reading</li>
               <li>Service currently in use by doctors across India using mobile app i.e Xray-Setu</li>
-            </ul> 
+            </ul>
           </div>
         </div>
         <div class="col-2">
@@ -63,7 +92,7 @@ author_profile: true
         </div>
       </div>
     </div>
-  </div> 
+  </div>
   <div class="container" style="margin-top: 2px;" data-aos="fade-up">
     <div class="border border-secondary" style="border-radius: 3px;">
       <div class="row" style="padding: 2px;">
@@ -74,17 +103,18 @@ author_profile: true
           <div style="font-size: 18px;">
             JSSSTU, Data Science Lab
           </div>
-          <div><span style="font-size: 13px;"> Improving the Lives of Cancer Patients by Identifying Existing Non-Cancer Generic Drugs</span></div>
+          <div><span style="font-size: 13px;"> Improving the Lives of Cancer Patients by Identifying Existing Non-Cancer
+              Generic Drugs</span></div>
           <div><span style="font-size: small;">Research Associate</span></div>
           <div style="font-size: small;">
             <ul>
-              <li>            
+              <li>
                 This is an automated data extraction and classification exercise to create a
               </li>
               <li>
               </li>
               <li>Lead Validation Dataset Team.</li>
-            </ul> 
+            </ul>
           </div>
         </div>
         <div class="col-2">
@@ -92,26 +122,28 @@ author_profile: true
         </div>
       </div>
     </div>
-  </div> 
+  </div>
   <div class="container" style="margin-top: 2px;" data-aos="fade-up">
     <div class="border border-secondary" style="border-radius: 3px;">
       <div class="row" style="padding: 2px;">
         <div class="col-2">
-          <img class="img-fluid" src="../images/iisc.jpg" style="margin-top: 20px;" >
+          <img class="img-fluid" src="../images/iisc.jpg" style="margin-top: 20px;">
         </div>
         <div class="col-8" style="padding: 8px;">
           <div style="font-size: 18px;">
             Indian Institute of Science, ML Lab, Bangalore
           </div>
-          <div><span style="font-size: 13px;">FAIR : Frugal ADAS for Indian Roads by <a target="_blank" href="https://www.tatamotors.com/">Tata Motors</a></span></div>
+          <div><span style="font-size: 13px;">FAIR : Frugal ADAS for Indian Roads by <a target="_blank"
+                href="https://www.tatamotors.com/">Tata Motors</a></span></div>
           <div><span style="font-size: small;">Research Intern</span></div>
           <div style="font-size: small;">
             <ul>
               <li>Trained Yolo V3 and Tiny Yolo V3 models for object detection on Indian Traffic using IDD dataset and
                 tested performance on Nvidia Jetson TX2 for model inference rate.</li>
-              <li>Collected and annotated data of traffic on Indian roads with varying distances and varying lighting conditions
+              <li>Collected and annotated data of traffic on Indian roads with varying distances and varying lighting
+                conditions
                 using web camera. Analysed optimal vehicle speed at which ADAS works best with given hardware.</li>
-            </ul> 
+            </ul>
           </div>
         </div>
         <div class="col-2">
@@ -121,7 +153,7 @@ author_profile: true
         </div>
       </div>
     </div>
-  </div> 
+  </div>
 
   <div class="container" style="margin-top: 2px;" data-aos="fade-up">
     <div class="border border-secondary" style="border-radius: 3px;">
@@ -133,79 +165,89 @@ author_profile: true
           <div style="font-size: 18px;">
             Omdena
           </div>
-          <div><span style="font-size: 13px;"> Improving the Lives of Cancer Patients by Identifying Existing Non-Cancer Generic Drugs</span></div>
+          <div><span style="font-size: 13px;"> Improving the Lives of Cancer Patients by Identifying Existing Non-Cancer
+              Generic Drugs</span></div>
           <div><span style="font-size: small;">Machine Learning Engineer</span></div>
           <div style="font-size: small;">
             <ul>
-              <li>            
-                This is an automated data extraction and classification exercise to create a structured database, at scale, of outcome measures contained in text-based clinical study of specific drugs. Data extraction is limited to text contained in study abstracts given by <a target="_blank"  href="https://rebootrx.org/">Reboot Rx.</a> 
+              <li>
+                This is an automated data extraction and classification exercise to create a structured database, at
+                scale, of outcome measures contained in text-based clinical study of specific drugs. Data extraction is
+                limited to text contained in study abstracts given by <a target="_blank"
+                  href="https://rebootrx.org/">Reboot Rx.</a>
               </li>
               <li>
-                Project outcomes included machine learning models to classify defined variables, curated training annotations, and extracted datasets using an NLP pipeline.
+                Project outcomes included machine learning models to classify defined variables, curated training
+                annotations, and extracted datasets using an NLP pipeline.
               </li>
               <li>Lead Validation Dataset Team.</li>
-            </ul> 
+            </ul>
           </div>
         </div>
         <div class="col-2">
           <div style="float: right;padding-right: 3px;padding: 8px;font-size: 12px;">Jan.'20-Apr.'20</div>
         </div>
-      </div>
-    </div>
-  </div> 
-
-  <div class="container" style="margin-top: 2px;" data-aos="fade-up">
-    <div class="border border-secondary" style="border-radius: 3px;">
-      <div class="row" style="padding: 2px;">
-        <div class="col-2">
-          <img class="img-fluid" src="../images/omdena.jpg" style="margin-top: 80px;">
-        </div>
-        <div class="col-8" style="padding: 8px;">
-          <div style="font-size: 18px;">
-            Omdena
-          </div>
-          <div><span style="font-size: 13px;">Leveraging Machine Learning to Minimize Climate Change Impacts</span></div>
-          <div><span style="font-size: small;">Machine Learning Engineer</span></div>
-          <div style="font-size: small;">
-            <ul>
-              <li>            
-                This is an automated data extraction and classification exercise to create a structured database, at scale, of outcome measures contained in text-based clinical study of specific drugs. Data extraction is limited to text contained in study abstracts given by Reboot Rx.
-              </li>
-              <li>
-                Project outcomes included machine learning models to classify defined variables, curated training annotations, and extracted datasets using an NLP pipeline.
-              </li>
-              <li>Lead Validation Dataset Team.</li>
-            </ul> 
-          </div>
-        </div>
-        <div class="col-2">
-          <div style="float: right;padding-right: 3px;padding: 8px;font-size: 12px;">Jan.'20-Apr.'20</div>
-        </div>
-      </div>
-    </div>
-  </div> 
-   
-
-  <!-- Modal -->
-<div class="modal fade" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
-</div>
+
+  <div class="container" style="margin-top: 2px;" data-aos="fade-up">
+    <div class="border border-secondary" style="border-radius: 3px;">
+      <div class="row" style="padding: 2px;">
+        <div class="col-2">
+          <img class="img-fluid" src="../images/omdena.jpg" style="margin-top: 80px;">
+        </div>
+        <div class="col-8" style="padding: 8px;">
+          <div style="font-size: 18px;">
+            Omdena
+          </div>
+          <div><span style="font-size: 13px;">Leveraging Machine Learning to Minimize Climate Change Impacts</span>
+          </div>
+          <div><span style="font-size: small;">Machine Learning Engineer</span></div>
+          <div style="font-size: small;">
+            <ul>
+              <li>
+                This is an automated data extraction and classification exercise to create a structured database, at
+                scale, of outcome measures contained in text-based clinical study of specific drugs. Data extraction is
+                limited to text contained in study abstracts given by Reboot Rx.
+              </li>
+              <li>
+                Project outcomes included machine learning models to classify defined variables, curated training
+                annotations, and extracted datasets using an NLP pipeline.
+              </li>
+              <li>Lead Validation Dataset Team.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-2">
+          <div style="float: right;padding-right: 3px;padding: 8px;font-size: 12px;">Jan.'20-Apr.'20</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);" id="exampleModal"
+    tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+      <div class="modal-dialog vertical-align-center">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            fghjk ertyui
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section><!-- End Contact Section -->
-
-
