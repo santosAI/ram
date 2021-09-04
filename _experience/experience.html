@@ -36,6 +36,33 @@ full width */
     margin: 0 auto;
     pointer-events: all;
   }
+
+  a.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+  }
+
+  a.button1:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+  }
+
+  @media all and (max-width:30em) {
+    a.button1 {
+      display: block;
+      margin: 0.4em auto;
+    }
+  }
 </style>
 <section id="contact" class="contact">
   <div class="container" style="margin-top: 4px;" data-aos="fade-up">
@@ -146,12 +173,8 @@ full width */
             </ul>
           </div>
           <div class="row">
-            <div><button button type="button" class="btn btn-link" data-mdb-ripple-color="dark" data-toggle="modal"
-                data-target="#exampleModal">Preprint</button></div>
-            <div><button button type="button" class="btn btn-link" data-mdb-ripple-color="dark" data-toggle="modal"
-                data-target="#exampleModal">click</button></div>
-
-
+            <div><a button type="button1" class="btn btn-link" data-toggle="modal"
+                data-target="#exampleModal">Preprint</a></div>
           </div>
         </div>
         <div class="col-2">
@@ -239,8 +262,8 @@ full width */
   <div class="modal fade" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);left: 150px;top: 150px;"
     id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="vertical-alignment-helper">
-      <div class="modal-dialog vertical-align-center modal-dialog-scrollable modal-lg"
-        style="padding-top: 110px;z-index: 999999 !important;">
+      <div class="modal-dialog vertical-align-center modal-dialog-scrollable modal-xl"
+        style="padding-top: 70px;z-index: 999999 !important;">
         <div class="modal-content">
           <div class="modal-header" style="background-color: #0059b3;">
             <h5 class="modal-title" id="exampleModalLabel" style="color: white;">FAIR : Frugal ADAS for Indian Roads
@@ -257,16 +280,15 @@ full width */
 
                   <div style="font-size: small;"> Team:
                     <span><a>Vineetha Kondameedi</a></span>, <span><a>Santosh Shet</a></span>, <span><a>Akshaj
-                        Verma</a></span>, <span><a>Sabyasachi Sahoo</a></span>, <span><a>Prashant Kumar</a></span>,
-                    <span><a href="https://eecs.iisc.ac.in/people/chiranjib-bhattacharyya/">Chiranjib Bhattacharyya (CSA Chair,IISc)</a></span>, <span><a href="http://www.ee.iisc.ac.in/people/faculty/soma.biswas/index.html">Soma Biswas (Professor,IISc)</a></span>
+                        Verma</a></span>, <span><a>Sabyasachi Sahoo</a></span>, <span><a>Prashant Kumar</a></span>
+                    <span class="article-date" style="float: right;margin-right: 11px;"> May 2020 </span>
                   </div>
                   <div style="font-size: small;"> Under:
-                    <span><a>Chiranjib Bhattacharyya</a></span>, <span><a>Soma Biswas</a></span>
+                    <span><a href="https://eecs.iisc.ac.in/people/chiranjib-bhattacharyya/">Chiranjib Bhattacharyya (CSA
+                        Chair,IISc)</a></span>, <span><a
+                        href="http://www.ee.iisc.ac.in/people/faculty/soma.biswas/index.html">Soma Biswas
+                        (Professor,IISc)</a></span>
                   </div>
-                  <span class="article-date">
-
-                    May 2020
-                  </span>
 
                 </div>
 
@@ -286,7 +308,7 @@ full width */
               <div class="article-header article-container featured-image-wrapper mt-4 mb-4"
                 style="max-width: 720px; max-height: 675px;">
                 <div style="position: relative">
-                  <img src="../images/fair3.png" alt="" class="featured-image">
+                  <img src="../images/fair3.png" alt="" class="featured-image" style="margin: auto;">
 
                 </div>
               </div>
@@ -294,7 +316,8 @@ full width */
 
 
                 <h3>Abstract</h3>
-                <p class="pub-abstract">Frugal ADAS for Indian Roads (FAIR) is an intelligent system designed as a
+                <p class="pub-abstract" style="margin: 20px;text-align: justify;">Frugal ADAS for Indian Roads (FAIR) is
+                  an intelligent system designed as a
                   plug-and-play
                   software which can be integrated with any vehicle. FAIR was designed specifically for Indian roads,
                   which have a
@@ -318,7 +341,8 @@ full width */
                   settings, and
                   low memory-footprint to run on the portable NVIDIA TX2 board, we conclude that FAIR is an ADAS system
                   can be
-                  introduced in the Indian markets at a cost of Rs. 30,000 (or about 400 USD).</p>
+                  introduced in the Indian markets at a <span style="text-decoration: underline;">cost of Rs. 30,000 (or
+                    about 400 USD)</span>.</p>
 
                 <div class="d-md-none space-below"></div>
 
@@ -333,6 +357,12 @@ full width */
                     please get in
                     touch with me or one of the authors.</p>
                 </div>
+                <div class="article-style">
+                  <div><a class="button1" style="background-color: white;" target="_blank" href="../files/FAIR_ADAS.pdf"
+                      rel="noopener"><span style="color: black;">Preprint</span>></a>
+                  </div>
+                </div>
+
 
 
 
