@@ -145,11 +145,19 @@ full width */
                 using web camera. Analysed optimal vehicle speed at which ADAS works best with given hardware.</li>
             </ul>
           </div>
+          <div class="row">
+            <div><button button type="button" class="btn btn-link" data-mdb-ripple-color="dark" data-toggle="modal"
+                data-target="#exampleModal">Preprint</button></div>
+            <div><button button type="button" class="btn btn-link" data-mdb-ripple-color="dark" data-toggle="modal"
+                data-target="#exampleModal">click</button></div>
+
+
+          </div>
         </div>
         <div class="col-2">
           <div style="float: right;padding-right: 3px;padding: 8px;font-size: 12px;">Jan.'20-Apr.'20</div>
           <!-- <div><a class="btn btn-outline-primary my-1 mr-1 btn-sm" style="background-color: white;" target="_blank" href="../files/FAIR_ADAS.pdf" rel="noopener"><span style="color: black;">Preprint</span>></a></div> -->
-          <div><button type="button" data-toggle="modal" data-target="#exampleModal">click</button></div>
+          <!-- <div><button button type="button" class="btn btn-link" data-mdb-ripple-color="dark" data-toggle="modal" data-target="#exampleModal">click</button></div> -->
         </div>
       </div>
     </div>
@@ -174,7 +182,7 @@ full width */
                 This is an automated data extraction and classification exercise to create a structured database, at
                 scale, of outcome measures contained in text-based clinical study of specific drugs. Data extraction is
                 limited to text contained in study abstracts given by <a target="_blank"
-                  href="https://rebootrx.org/">Reboot Rx.</a>
+                  href="https://rebootrx.org/">Reboot Rx</a>.
               </li>
               <li>
                 Project outcomes included machine learning models to classify defined variables, curated training
@@ -228,10 +236,11 @@ full width */
 
 
   <!-- Modal -->
-  <div class="modal fade" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);left: 150px;top: 150px;" id="exampleModal"
-    tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);left: 150px;top: 150px;"
+    id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="vertical-alignment-helper">
-      <div class="modal-dialog vertical-align-center modal-dialog-scrollable modal-lg" style="padding-top: 110px;z-index: 999999 !important;">
+      <div class="modal-dialog vertical-align-center modal-dialog-scrollable modal-lg"
+        style="padding-top: 110px;z-index: 999999 !important;">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
@@ -240,19 +249,110 @@ full width */
             </button>
           </div>
           <div class="modal-body">
-            fghjk 
-          </div>
-          <!-- <div class="modal-footer">
+            <div class="pub">
+
+              <div class="article-container pt-3">
+                <h1>FAIR : Frugal ADAS for Indian Roads</h1>
+
+                <div class="article-metadata">
+
+                  <div>
+                    <span><a href="/authors/vineetha-kondameedi/">Vineetha Kondameedi</a></span>, <span><a
+                        href="/authors/santosh-shet/">Santosh Shet</a></span>, <span><a
+                        href="/authors/akshaj-verma/">Akshaj
+                        Verma</a></span>, <span><a href="/authors/admin/">Sabyasachi Sahoo</a></span>, <span><a
+                        href="/authors/prashant-kumar/">Prashant Kumar</a></span>, <span><a
+                        href="/authors/chiranjib-bhattacharyya/">Chiranjib Bhattacharyya</a></span>, <span><a
+                        href="/authors/soma-biswas/">Soma Biswas</a></span>
+                  </div>
+                  <span class="article-date">
+
+                    May 2020
+                  </span>
+
+                </div>
+
+                <div class="btn-links mb-3">
+                  <a class="btn btn-outline-primary my-1 mr-1" href="/publication/fair/FAIR_ADAS.pdf" target="_blank"
+                    rel="noopener">
+                    Preprint
+                  </a>
+
+                  <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+                    data-filename="/publication/fair/cite.bib">
+                    Cite
+                  </button>
+
+                </div>
+              </div>
+              <div class="article-header article-container featured-image-wrapper mt-4 mb-4"
+                style="max-width: 720px; max-height: 675px;">
+                <div style="position: relative">
+                  <img
+                    src="../images/fair3.png"
+                    alt="" class="featured-image">
+
+                </div>
+              </div>
+              <div class="article-container">
+
+
+                <h3>Abstract</h3>
+                <p class="pub-abstract">Frugal ADAS for Indian Roads (FAIR) is an intelligent system designed as a
+                  plug-and-play
+                  software which can be integrated with any vehicle. FAIR was designed specifically for Indian roads,
+                  which have a
+                  different dynamic (animal presence, behaviour of pedestrians, high density of objects on road) as
+                  compared to
+                  European and American roads, to perform object detection with a competitively high accuracy while
+                  keeping
+                  development costs low. For testing, we collect our dataset on Indian roads (near IISc Bangalore) with
+                  webcam with
+                  objects in varying illumination and distances from the camera. We demonstrate that FAIR performs
+                  object detection,
+                  for 15 classes, exceedingly well in well-light conditions where average pixel value lies between
+                  56%-62% (8AM to
+                  6PM), object distance from the car lies between 0-30m, and the vehicle speed is in the range of
+                  0-40km/h. FAIR can
+                  be augmented to use mobile cameras and can offer a great night time performance. It also has the
+                  potential to
+                  further support downstream tasks such as collision avoidance, blind spot information and speed
+                  breaker/pothole
+                  detections. With a competitive accuracy, high inference rate, ability to work in low-illumination
+                  settings, and
+                  low memory-footprint to run on the portable NVIDIA TX2 board, we conclude that FAIR is an ADAS system
+                  can be
+                  introduced in the Indian markets at a cost of Rs. 30,000 (or about 400 USD).</p>
+
+                <div class="d-md-none space-below"></div>
+
+
+                <div class="d-md-none space-below"></div>
+
+
+                <div class="space-below"></div>
+
+                <div class="article-style">
+                  <p>For more information on this project, or to get access to code and datasets used in this project,
+                    please get in
+                    touch with me or one of the authors.</p>
+                </div>
+
+
+
+              </div>
+            </div>
+            <!-- <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div> -->
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </section><!-- End Contact Section -->
 
- <!-- Modal -->
- <!-- <div class="modal fade" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);" id="exampleModal"
+<!-- Modal -->
+<!-- <div class="modal fade" data-backdrop="false" style="background-color: rgba(0, 0, 0, 0.5);" id="exampleModal"
  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
  <div class="vertical-alignment-helper">
    <div class="modal-dialog vertical-align-center">
