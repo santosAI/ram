@@ -10,9 +10,68 @@ author_profile: true
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<style>
-
-</style>
+  <style>
+    .vertical-alignment-helper {
+      display: table;
+      height: 100%;
+      width: 100%;
+      pointer-events: none;
+    }
+  
+    .vertical-align-center {
+      /* To center vertically */
+      display: table-cell;
+      vertical-align: top;
+      pointer-events: none;
+    }
+  
+    .modal-content {
+      /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+      width: inherit;
+      max-width: inherit;
+      /* For Bootstrap 4 - to avoid the modal window stretching 
+  full width */
+      height: inherit;
+      /* To center horizontally */
+      margin: 0 auto;
+      pointer-events: all;
+    }
+  
+    a.button1 {
+      display: inline-block;
+      padding: 0.35em 1.2em;
+      border: 0.1em solid #a8a6a6;
+      margin: 0 0.3em 0.3em 0;
+      border-radius: 0.12em;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      color: #000000;
+      text-align: center;
+      transition: all 0.2s;
+      font-size: small;
+    }
+  
+    a.button1:hover {
+      color: #d9d8e0;
+      background-color: #FFFFFF;
+    }
+  
+    @media all and (max-width:30em) {
+      a.button1 {
+        display: block;
+        margin: 0.4em auto;
+      }
+    }
+  
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+    }
+  </style>
 <section>
 
   <div class="container" style="margin-top: 2px;" data-aos="fade-up">
